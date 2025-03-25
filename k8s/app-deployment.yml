@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: note-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: note-app
+  template:
+    metadata:
+      labels:
+        app: note-app
+    spec:
+      containers:
+        - name: note-app
+          image: wynm/note-app:latest  # ใช้ชื่อเดียวกับตอน build
+          ports:
+            - containerPort: 8501
+          env:
+            - name: DB_HOST
+              value: "postgres"

@@ -119,13 +119,6 @@ The application reads the DB host from an environment variable `DB_HOST`. You ca
 - For Kubernetes: `DB_HOST=postgres`
 - For Docker Compose: `DB_HOST=db` or leave it blank (default fallback)
 
----
-
-## 📸 Screenshots
-
-![alt text](image.png)
-
----
 
 ## 👨‍💻 Author
 

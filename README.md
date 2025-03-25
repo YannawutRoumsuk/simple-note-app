@@ -123,7 +123,7 @@ The application reads the DB host from an environment variable `DB_HOST`. You ca
 
 ## 📸 Screenshots
 
-_Add screenshot here if available._
+![alt text](image.png)
 
 ---
 
